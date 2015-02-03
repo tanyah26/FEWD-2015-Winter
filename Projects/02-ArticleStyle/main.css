@@ -172,7 +172,7 @@ h3 {
 	margin: 0 0;
 	line-height: 175%;
 	list-style-type: circle;
-	float: left;
+	clear: both;
 }
 
 .hut_image {
@@ -193,6 +193,7 @@ h3 {
 	padding-top: 20px;
 	max-width: 765px;
 	margin: 0 0;
+	clear: both;
 
 }
 
