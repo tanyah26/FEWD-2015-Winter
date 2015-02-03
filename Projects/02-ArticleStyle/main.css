@@ -14,33 +14,37 @@ _____________________________
 	-box-sizing: border-box;
 }
 
+body {
+	margin: 0;
+}
+
 h1 {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	color: #222;
 	font-size: 60px;
 	font-weight: 900;
 	text-align: center;
-	padding-top: 50px;
-	
+	margin-top: 80px;
+	margin-bottom: 0;
 }
 
 h5 {
-	margin: 0 auto;
 	font-family: Georgia;
 	color: #999;
 	font-size: 20px;
 	font-weight: normal;
 	text-align: center;
-	padding-top: 10px;
+	margin-top: 20px;
 }
 
 .aboriginal_image {
 	border: 1px solid #ccc;
-	padding: o;
+	padding: 0;
 	margin: 0 auto;
 	text-align: center;
 	margin-top: 80px;
-	width: 975px;
+	margin-bottom: 0;
+	display: block;
 }
 
 .aboriginal_image_footnote {
@@ -55,7 +59,6 @@ h5 {
 
 hr {
 	max-width: 775px;
-	margin: 0 auto;
 	border: 1px solid #ccc;
 	margin-top: 80px;
 	margin-bottom: 80px;
@@ -104,7 +107,7 @@ h4{
 }
 
 .contents {
-	margin-left: 285px;
+	margin-left: 80px;
 }
 
 
@@ -114,9 +117,7 @@ h2 {
 	font-size: 36px;
 	color: #222;
 	text-align: left;
-	margin: 0 auto;
 	margin-bottom: 40px;
-	max-width: 775px;
 }
 
 p{
@@ -126,7 +127,6 @@ p{
 	color: #222;
 	text-align: left;
 	max-width: 775px;
-	margin: 0 auto;
 	line-height: 175%;
 }
 
@@ -168,21 +168,21 @@ h3 {
 	color: #222;
 	text-align: left;
 
-	max-width: 775px;
-	margin: 0 auto;
+	max-width: 410px;
+	margin: 0 0;
 	line-height: 175%;
 	list-style-type: circle;
-
+	float: left;
 }
 
 .hut_image {
 	border: 1px solid #ccc;
 	padding: 0;
-	margin: 0 auto;
+	margin: 0 0;
 	text-align: center;
-	margin-top: 80px;
 	width: 375px;
-	display: inline;
+	display: block;
+	float: right;
 }
 
 .hut_image_footnote {
@@ -192,7 +192,12 @@ h3 {
 	text-align: left;
 	padding-top: 20px;
 	max-width: 765px;
-	margin: 0 auto;
+	margin: 0 0;
 
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 775px;
 }
 
