@@ -1,0 +1,191 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 2966986, 2015-02-05T18:29:10-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: SanchezCondensed-Italic by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/sanchez-condensed/italic/
+ * 
+ * Webfont: SanchezCondensed by Latinotype
+ * URL: http://www.myfonts.com/fonts/latinotype/sanchez-condensed/regular/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2966986
+ * Licensed pageviews: 20,000
+ * Webfonts copyright: Copyright (c) 2012 by Daniel hern&#x00C3;&#x00A1;ndez. All rights reserved.
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/2d45ca");
+
+  
+@font-face {font-family: 'SanchezCondensed-Italic';
+			src: 	url('../webfonts/2D45CA_0_0.eot');
+			src: 	url('../webfonts/2D45CA_0_0.eot?#iefix') format('embedded-opentype'),
+					url('../webfonts/2D45CA_0_0.woff2') format('woff2'),
+					url('../webfonts/2D45CA_0_0.woff') format('woff'),
+					url('../webfonts/2D45CA_0_0.ttf') format('truetype');
+			}
+ 
+  
+@font-face {font-family: 'SanchezCondensed';
+			src: 	url('../webfonts/2D45CA_1_0.eot');
+			src: 	url('../webfonts/2D45CA_1_0.eot?#iefix') format('embedded-opentype'),
+					url('../webfonts/2D45CA_1_0.woff2') format('woff2'),
+					url('../webfonts/2D45CA_1_0.woff') format('woff'),
+					url('../webfonts/2D45CA_1_0.ttf') format('truetype');
+			}
+ 
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-box-sizing: border-box;
+}
+
+body {
+	width: 1150px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'SanchezCondensed', Georgia, serif;
+}
+
+h1 {
+	font-size: 60px;
+	color: #fff;
+}
+
+h2 {
+	text-align: center;
+}
+
+h4{
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 12px
+}
+
+p {
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-size: 16px;
+
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 620px;
+
+}
+
+header {
+	text-align: center;
+	margin-top: 0;
+	height: 500px;
+	padding: 240px 150px 130px 150px;
+	margin-bottom: 0px;
+
+	background-image: url("images/header.jpg");
+	background-repeat: no-repeat;
+	background-size: 1150px 560px;
+}
+
+.intro {
+	font-size: 22px;
+	color: #ccc;
+}
+
+.block2 {
+	background-color: #AC8420;
+	background-size: 100% 100%;
+	padding-top: 100px;
+	padding-bottom: 110px;
+	margin: 0 auto;
+	margin-top: 0;
+	max-width: 100%;
+}
+
+.block3{
+	background-color: #fff;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.block4 {
+	background-color: #222;
+	background-size: 100% 100%;
+	color: #fff;
+	padding: 95px 150px;
+
+	background-image: url("images/logo_small.png");
+	background-repeat: no-repeat;
+	background-size: 50px 50px;
+	background-position: center;
+}
+
+.block_right {
+	float: right;
+}
+
+.button {
+	color: #AC8420;
+	border: 2px solid #AC8420;
+	text-align: center;
+	padding: 15px 25px;
+	max-width: 110px;
+	margin-top: 30px;
+}
+
+#menutitle2 {
+	margin-top: 90px;
+}
+
+table {
+	font-family: 'Lato', Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: #fff;
+	margin: 0 auto;
+	width: 600px;
+	text-align: left;
+	border-collapse: collapse;
+
+}
+
+td {
+	border-bottom: 2px solid #9B761C;
+	padding: 10px;
+}
+
+.price {
+	font-weight: 300px;
+	color: #DECC9C;
+	text-align: left;
+}
+
+#footerright {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+

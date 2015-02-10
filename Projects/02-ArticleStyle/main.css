@@ -64,7 +64,7 @@ hr {
 	margin-bottom: 80px;
 }
 
-h4{
+h4 {
 	text-transform: uppercase;
 	font-family: 'Open Sans';
 	font-size: 14px;
@@ -172,17 +172,12 @@ h3 {
 	margin: 0 0;
 	line-height: 175%;
 	list-style-type: circle;
-	clear: both;
 }
 
-.hut_image {
-	border: 1px solid #ccc;
-	padding: 0;
-	margin: 0 0;
-	text-align: center;
-	width: 375px;
+.block_right {
 	display: block;
 	float: right;
+	margin: 0 0 20px 20px;
 }
 
 .hut_image_footnote {
@@ -192,9 +187,6 @@ h3 {
 	text-align: left;
 	padding-top: 20px;
 	max-width: 765px;
-	margin: 0 0;
-	clear: both;
-
 }
 
 .container {

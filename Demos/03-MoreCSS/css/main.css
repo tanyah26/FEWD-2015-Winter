@@ -1,0 +1,57 @@
+
+/*
+.box{
+	background: url(../images/bg.gif);
+	background-repeat: no-repeat;
+	background-position: 50px 50px;
+	background-color: #eee;
+	height: 800px;
+}
+*/
+
+/*
+.logo {
+	background: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	display: block;
+	height: 90px;
+	width: 280px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+*/
+
+.square{
+	height: 200px;
+	width: 200px;
+	background: gray;
+	border: 1px solid black;
+}
+
+.bar {
+	height: 200px;
+	background: darkgray;
+
+	/* clear: both; */
+}
+
+.clearfix {
+	border: 10px solid green;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
