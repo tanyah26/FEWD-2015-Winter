@@ -1,0 +1,107 @@
+
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-box-sizing: border-box;
+}
+
+.header {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-size: 30px;
+	color: #2b3f4c;
+	margin-top: 40px;
+	margin-bottom: 40px
+}
+
+p {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Roboto Condensed', Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 70px;
+	color: #fff;
+	margin: 0;
+}
+
+h2 {
+	font-size: 36px;
+	color: #2b3f4c;
+}
+
+h3 {
+	font-size: 26px;
+	color: #e77e04;
+}
+
+h4 {
+	font-size: 42px;
+	color: #e77e04;
+	padding: 0;
+	margin: 0;
+}
+
+section {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.section1 {
+	background: url("images/intro_bg.jpg") no-repeat center;
+	background-size: cover;
+	box-sizing: border-box;
+	max-height: 455px;
+}
+
+.section1 p {
+	font-size: 20px;
+	font-weight: 300;
+	color: #fff;
+	line-height: 1.5em;
+	padding-bottom: 35px;
+}
+
+.button {
+	color: #e77e04;
+	background: #fff;
+	padding: 20px 40px;
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+
+.phone {
+	width: 100%;
+}
+
+.section2 {
+	text-align: center;
+}
+
+.section3 {
+	background: #eee;
+}
+
+.section3 img {
+	width: 100%;
+}
+
+.section4 {
+	text-align: center;
+}
+
+.section4 p {
+	padding-top: 20px;
+	padding-bottom: 35px;
+	margin: 0;
+}
