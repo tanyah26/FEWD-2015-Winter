@@ -70,16 +70,26 @@ section {
 	padding-bottom: 100px;
 }
 
+<<<<<<< HEAD
 .bar_intro {
+=======
+.section1 {
+>>>>>>> a685c46d3d95d87854307c537d03b62ced83bf97
 	background: url("images/intro_bg.jpg") no-repeat center;
 	background-size: cover;
 	box-sizing: border-box;
 	max-height: 455px;
+<<<<<<< HEAD
 	position: relative;
 	padding: 0;
 }
 
 .bar_intro p {
+=======
+}
+
+.section1 p {
+>>>>>>> a685c46d3d95d87854307c537d03b62ced83bf97
 	font-size: 20px;
 	font-weight: 300;
 	color: #fff;
@@ -280,7 +290,6 @@ footer {
 		.upper_thumbnail {
 			margin-top: 800px;
 		}
-
 		/* target screens from 500px to 740px */
 	}
 
@@ -290,8 +299,7 @@ footer {
 			display: block;
 		}
 			
-}
-
+	}
 
 		/* target screens smaller then 740px */
 	}
