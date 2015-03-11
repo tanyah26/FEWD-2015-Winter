@@ -74,8 +74,6 @@ section {
 	background: url("images/intro_bg.jpg") no-repeat center;
 	background-size: cover;
 	box-sizing: border-box;
-	max-height: 455px;
-	position: relative;
 	padding: 0;
 }
 
@@ -87,6 +85,11 @@ section {
 	padding-bottom: 35px;
 }
 
+.intro_row {
+	position: relative;
+
+}
+
 .button {
 	color: #e77e04;
 	background: #fff;
@@ -96,10 +99,10 @@ section {
 	text-decoration: none;
 }
 
-.phone_position {
+/* .phone_position {
 	position: absolute;
 	bottom: 0px;
-}
+} */
 
 .phone_img {
 	width: 100%;
@@ -123,31 +126,6 @@ section {
 	content: "";
 }
 
-.feature_heading:before {
-	display: block;
-	height: 80px;
-	width: 80px;
-	margin: 0 auto 10px auto;
-}
-
-.feature_tag .feature_heading:before {
-	background-position: 0 -120px;
-	height: 80px;
-	width: 80px;
-}
-
-.feature_cloud .feature_heading:before {
-	background-position: -80px -120px;
-	height: 80px;
-	width: 80px;
-}
-
-.feature_map .feature_heading:before {
-	background-position: -160px -120px;
-	height: 80px;
-	width: 60px;
-}
-
 .download_section {
 	text-align: center;
 	margin-bottom: 0;
@@ -161,22 +139,25 @@ section {
 
 .download_buttons {
 	background: url("images/icon_sprite.png");
+	background-color: #000;
 	content: "";
+	background-position: center;
 	display: inline-block;
 	height: 50px;
-	width: 110px;
+	width: 150px;
+	border-radius: 5px;
 }
 
 .appstore {
-	background-position: -50px -200px;
+	background-position: center -200px;
 }
 
 .playstore {
-	background-position: -50px -260px;
+	background-position: center -260px;
 }
 
 .amazonstore {
-	background-position: -50px -320px;
+	background-position: center -320px;
 }
 
 .line_break {
@@ -200,14 +181,10 @@ footer {
 	color: #777;
 }
 
-.socialmedia {
-	float: right;
-}
 
 .footer_icons {
 	background: url("images/icon_sprite.png") no-repeat;
 	display: inline-block;
-	float: right;
 	height: 40px;
 	width: 40px;
 	margin: 0 5px 0 0;
@@ -227,6 +204,32 @@ footer {
 
 
 	@media screen and (max-width: 499px) {
+
+		.thumbnail {
+			margin-top: 2px;
+		}
+
+		.socialmedia {
+			display: block;
+			clear: both;
+			margin-top: 20px;
+		}
+		/* target screens smaller then 500px */
+	}
+
+	@media screen and (min-width: 500px) {
+		/* target screens larger then 500px */
+	}
+
+	@media screen and (min-width: 500px) and (max-width: 739px) {
+		/* target screens from 500px to 740px */
+
+		.thumbnail {
+			margin-top: 5px;
+		}
+	}
+
+	@media screen and (max-width: 739px) {
 
 		.feature_heading:before {
 			display: none;
@@ -264,42 +267,87 @@ footer {
 			text-align: left;
 		}
 
-		.socialmedia {
-			display: block;
-			clear: both;
-			margin-top: 20px;
-		/* target screens smaller then 500px */
-	}
-
-	@media screen and (min-width: 500px) {
-		/* target screens larger then 500px */
-	}
-
-	@media screen and (min-width: 500px) and (max-width: 739px) {
-		
-		.upper_thumbnail {
-			margin-top: 800px;
+		.footer {
+			text-align: center;
 		}
-		/* target screens from 500px to 740px */
-	}
-
-	@media screen and (max-width: 739px) {
 
 		.socialmedia {
 			display: block;
 		}
-			
-	}
+
+		.footer_text {
+			margin-top: 30px;
+			margin-bottom: 0;
+			display: inline-block;
+		}
+
+		.copyright {
+			margin-top: 10px;
+		}
 
 		/* target screens smaller then 740px */
 	}
 
 	@media screen and (min-width: 740px) {
 		/* target screens larger then 740px */
+
+		.feature_heading:before {
+			display: block;
+			height: 80px;
+			width: 80px;
+			margin: 0 auto 10px auto;
+		}
+
+		.feature_tag .feature_heading:before {
+			background-position: 0 -120px;
+			height: 80px;
+			width: 80px;
+		}
+
+		.feature_cloud .feature_heading:before {
+			background-position: -80px -120px;
+			height: 80px;
+			width: 80px;
+		}
+
+		.feature_map .feature_heading:before {
+			background-position: -160px -120px;
+			height: 80px;
+			width: 60px;
+		}
+
+		.intro_row:before {
+			background: url(images/intro_phone.png) no-repeat;
+			content: '';
+			height: 554px;
+			width: 325px;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			padding: 0;
+		}
+
+		.footer p {
+			display: inline;
+		}	
+
+		.socialmedia {
+			text-align: right;
+
+		}
 	}
 
 	@media screen and (min-width: 740px) and (max-width: 979px) {
 		/* target screens from 740px to 980px */
+		
+		.thumbnail {
+			margin-top: 10px;
+		}
+
+		.upper_thumbnail {
+			margin-top: 50px;
+		}
+
 	}
 
 	@media screen and (max-width: 979px) {
@@ -309,15 +357,19 @@ footer {
 	@media screen and (min-width: 980px) {
 		/* target screens larger then 980px */
 
-		.gallery {
-			margin-top: 0px;
+		.intro_row:before {
+			right: 60px;
+			padding: 0;
 		}
 
 		.gallery_content {
-			position: relative;
-			top: 50%;
-			transform: translateY(-50%);
+			margin-top: 100px;
 		}
+
+		.thumbnail {
+			margin-top: 15px;
+		}
+
 	}
 
 	@media screen and (min-width: 980px) and (max-width: 1219px) {
@@ -330,6 +382,11 @@ footer {
 
 	@media screen and (min-width: 1220px) {
 		/* target screens larger then 1220px */
+
+		.intro_row:before {
+			right: 170px;
+			padding: 0;
+		}
 	}
 
 
