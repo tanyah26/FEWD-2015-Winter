@@ -2,13 +2,30 @@
 <html class="no-js">
 	<head>
 
+		<meta name="viewport" content="width=device-width">
+
 		<link rel="stylesheet" href="components/normalize-css/normalize.css">
 		<link rel="stylesheet" href="components/formstone/dist/css/grid.css">
 		<link rel="stylesheet" type="text/css" href="main.css">
+
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300' rel='stylesheet' type='text/css'>
 
 		<script src="components/modernizr/modernizr.js"></script>
+
+		<!-- These scripts below have to do with adding js functions through css (?). And adding a lightbox -->
+		<script src="components/jquery/dist/jquery.js"></script>
+		<script src="components/formstone/dist/js/core.js"></script>
+		<script src="components/formstone/dist/js/transition.js"></script>
+		<script src="components/formstone/dist/js/lightbox.js"></script>
+		<link rel="stylesheet" type="text/css" href="components/formstone/dist/css/lightbox.css">
+		<script src="js/site.js"></script>
+
+		<!--[if IE 8]>
+			<link rel="stylesheet" type="text/css" href="components/formstone/dist/css/grid.ie.css">
+			<link rel="stylesheet" type="text/css" href="site-ie.css">
+		<![endif]-->
+
 
 	</head>
 	
@@ -51,35 +68,35 @@
 					<p>Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 				</div>
 
-				<a href="#" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 thumbnail upper_thumbnail">
+				<a href="images/photos/01.jpg" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 thumbnail upper_thumbnail js-lightbox" data-lightbox-gallery="photo_gallery">
 					<img src="images/photos/thumb_01.jpg" alt="thumbnail1">
 				</a>
 
-				<a href="#" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 thumbnail upper_thumbnail">
+				<a href="images/photos/02.jpg" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 thumbnail upper_thumbnail js-lightbox" data-lightbox-gallery="photo_gallery">
 					<img src="images/photos/thumb_02.jpg" alt="thumbnail2">
 				</a>
 
-				<a href="#" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 thumbnail">
+				<a href="images/photos/03.jpg" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 thumbnail js-lightbox" data-lightbox-gallery="photo_gallery">
 					<img src="images/photos/thumb_03.jpg" alt="thumbnail3">
 				</a>
 
-				<a href="#" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 thumbnail">
+				<a href="images/photos/04.jpg" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 thumbnail js-lightbox" data-lightbox-gallery="photo_gallery">
 					<img src="images/photos/thumb_04.jpg" alt="thumbnail4">
 				</a>
 
-				<a href="#" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 thumbnail">
+				<a href="images/photos/05.jpg" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 thumbnail js-lightbox" data-lightbox-gallery="photo_gallery">
 					<img src="images/photos/thumb_05.jpg" alt="thumbnail5">
 				</a>
 
-				<a href="#" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 thumbnail">
+				<a href="images/photos/06.jpg" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 thumbnail js-lightbox" data-lightbox-gallery="photo_gallery">
 					<img src="images/photos/thumb_06.jpg" alt="thumbnail6">
 				</a>
 
-				<a href="#" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 thumbnail">
+				<a href="images/photos/07.jpg" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 thumbnail js-lightbox" data-lightbox-gallery="photo_gallery">
 					<img src="images/photos/thumb_07.jpg" alt="thumbnail7">
 				</a>
 
-				<a href="#" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 thumbnail">
+				<a href="images/photos/08.jpg" class="fs-cell fs-xs-half fs-sm-fourth fs-md-1 fs-lg-2 thumbnail js-lightbox" data-lightbox-gallery="photo_gallery">
 					<img src="images/photos/thumb_08.jpg" alt="thumbnail8">
 				</a>
 			</section>
@@ -104,7 +121,7 @@
 				<a href="#" class="footer_icons googleplus"></a>
 			</div>
 
-			<div class="fs-cell fs-md-half fs-lg-half">
+			<div class="fs-cell fs-md-half fs-lg-half footer">
 				<a href="#" class="footer_text">Support</a>
 				<a href="#" class="footer_text">Privacy &amp; Terms</a>
 				<p class="footer_text copyright">&copy;2014 PictitiousPro</p>
